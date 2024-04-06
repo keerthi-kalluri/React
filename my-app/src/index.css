@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.filter-list {
+  text-align: center;
+}
+
+.dropdown-button {
+  width: 100%;
+  position: relative;
+}
+
+
+.dropdown-menu {
+  position: absolute; /* Position dropdown menu absolutely */
+  top: 100%; /* Position it below the button */
+  left: 0; /* Align it with the left edge of the button */
+  z-index: 1000; /* Ensure dropdown appears above other elements */
+}
+
+ul {
+  border: 1px solid grey;
+  padding : 5px;
+}
